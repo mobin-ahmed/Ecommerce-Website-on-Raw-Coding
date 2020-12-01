@@ -1,0 +1,14 @@
+.dash a{
+	text-decoration: none;
+	color: white;
+}
+.dash div{
+	display: inline;
+	padding: 10px;
+}
+
+.btnstyle{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: orange;
+}

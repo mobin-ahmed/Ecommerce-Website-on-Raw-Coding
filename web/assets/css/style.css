@@ -1,0 +1,274 @@
+*{box-sizing: border-box;}
+
+
+.col-1{
+	width: 8.33%;
+}
+
+.col-2{
+	width: 16.66%;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.33%;
+}
+
+.col-5{
+	width: 41.66%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.33%;
+}
+
+.col-8{
+	width: 66.66%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.33%;
+}
+
+.col-11{
+	width: 91.66%;
+}
+
+.col-12{
+	width: 100%;
+}
+
+
+
+[class*='col-']{
+	float: left;
+	border: 1px solid gray;
+}
+
+
+.row:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.logo:hover{
+	background-color: rgb(190,0,190);
+	color: black;
+	text-rendering: geometricPrecision;
+}
+
+.main-ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.main-ul li{
+	float: left;
+	width: 120px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.main-ul li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid gray;
+	height: 60px;
+	color: white;
+	border-radius: 10px;
+}
+.main-ul img{
+	border-radius: 10px;
+}
+
+.main-ul li a:hover{
+	background-color: rgb(0,56,100);
+	color: white;
+	border-bottom: 7px solid green;
+	border-top: 7px solid orange;
+}
+
+.info-ul li a{
+	color: blue;
+}
+.info-ul li label{
+	color: white;
+}
+
+.div-slide{
+	height: 400px;
+	width: 100%;
+	animation-name: slide;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes slide{
+	0%{background: url("../images/p13.jpg");}
+	25%{background: url("../images/pic10.jpg");}
+	50%{background: url("../images/p3.jpg");}
+	75%{background: url("../images/p21.jpg");}
+	100%{background: url("../images/p17.jpg");}
+}
+
+@media all and (max-width: 940px){
+	.logo{
+		width: 97%;
+		text-align: center;
+	}
+	.menu-area{
+		width: 100%;
+		text-align: right;
+	}
+	.p1{
+		width: 100%
+	}
+	.p2{
+		width: 100%
+	}
+	.p3{
+		width: 100%
+	}
+	.p4{
+		width: 100%
+	}
+	.p5{
+		width: 100%
+	}
+	.p6{
+		width: 100%
+	}
+	.p7{
+		width: 100%
+	}
+	.p8{
+		width: 100%
+	}
+	.p9{
+		width: 100%
+	}
+	.p10{
+		width: 100%
+	}
+	.p11{
+		width: 100%
+	}
+	.p12{
+		width: 100%
+	}
+	.footer1{
+		width: 100%
+	}
+	.footer2{
+		width: 100%
+	}
+	.footer3{
+		width: 100%
+	}
+	.sfooter{
+		width: 100%
+	}
+
+	.login{
+		width: 60%;
+	}
+	.register{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.checkcon{
+		width: 100%;
+	}
+	.pcart{
+		width: 100%;
+	}
+	.conform{
+		width: 100%;
+	}
+	.cominfo{
+		width: 100%;
+	}
+	.cat{
+		width: 100%;
+	}
+	.prod{
+		width: 100%;
+	}
+	.admin{
+		width: 100%;
+	}
+}
+
+.main-tr th{
+	border-radius: 5px;
+	margin: 5px;
+	height: 70px;
+}
+
+.main-tr td{
+	border-radius: 5px;
+	margin: 5px;
+	height: 40px;
+}
+
+.main-tr td input{
+	border-radius: 5px;
+	margin: 5px;
+	height: 40px;
+}
+
+.main-tr td a button{
+	border-radius: 5px;
+	margin: 5px;
+	height: 40px;
+	background-color: green;
+	color: white;
+}
+
+.main-tr td a{
+	font-size: 40px;
+}
+.cat-ul{
+	list-style-type: none;
+}
+.cat-ul li{
+	color: orange;
+	font-size: 20px;
+	
+}
+.cat-ul li a{
+	text-decoration: none;
+	color: orange;
+}
+.admin-div{
+	border: 5px ridge red;
+	border-bottom: 30px blue;
+	border-top: 30px blue;
+	border-radius: 15px;
+	text-align: center;
+	margin: 100px 100px 100px 100px;
+	background-color: rgb(245,245,245);
+}
